@@ -1,0 +1,116 @@
+
+<html>
+
+<title>Richard Tian's Site</title>
+<head>
+<style>
+
+h1{
+color: White;
+}
+h2{
+  color: red;
+}
+h4{
+  color: red;
+}
+body{
+background-color: MediumTurquoise;
+font-family: Arial;
+font-size: 25px;
+}
+p1{
+  color:white;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Welcome to Richard's webpage!</h1>
+
+<a href="https://ibb.co/bN5XDtL"><img src="https://i.ibb.co/Zczx79K/IMG-20200110-113426545.jpg" alt="IMG-20200110-113426545"
+border="0" width="300" height="400"></a>
+
+<p>Hi! I am <strong>Richard Tian</strong>, a student at Swarthmore College studying computer science
+and education. <br>This is the first time I have created a website using HTML, and I have
+found it quite interesting!</p>
+
+<p><strong>Click the button below to see the current date:</strong></p>
+    <button onclick="getElementById('demo').innerHTML=Date()">What day is today?</button>
+    <p id="demo"></p>
+
+Quick Links:
+<a href='https://richard-tianq.webnode.com/'><button>Click here to go to my other website!</button></a>
+
+<a href='https://swarthmore.edu/'><button>Swarthmore College Homepage</button></a>
+
+<a href='https://cbc.ca/'><button>Canadian Broadcasting Corporation (CBC) Homepage</button></a>
+
+<a href='https://google.com/'><button>Google</button></a><br>
+
+<p><strong>Want to contact me? Use this form right below:</strong></p>
+<br>
+<form id="myForm">
+I am a:<br>
+<input type="radio" name="Radio1" />
+<label for="Radio1">Student</label><br>
+<input type="radio" name="Radio1" />
+<label for="Radio1">Parent</label><br>
+<input type="radio" name="Radio1" />
+<label for="Radio1">Recruiter</label><br>
+<input type="radio" name="Radio1" />
+<label for="Radio1">Other</label><br>
+
+
+
+<br>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" placeholder="i.e. Jane"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" placeholder="i.e. Smith"><br><br>
+<label for="email">Email address:</label>
+<input type="email" id="email" name="email" placeholder="i.e. example@gmail.com"><br><br>
+<label for="date">Today's date:</label>
+<input type="date" id="date" name="date"><br><br>
+<textarea maxlength="100" rows="7" cols="50" placeholder = "Write Message Here..."></textarea>
+</form>
+<br>
+
+<input type="button" onclick="submit()" value="Submit">
+
+<!--
+-->
+
+<script>
+function submit() {
+ document.getElementById("myForm").reset();
+ alert('Once you press OK the form will be reset, but rest assured that your response has been recorded. Thank you.')
+}
+</script>
+
+
+<h2>Canadian capital cities</h2>
+Here is a list of Canadian Capital cities:<br>
+<em>(From East to West)</em><br>
+<br>
+<img src = "https://www.worldatlas.com/webimage/countrys/namerica/province/cancaps.gif">
+(Map is True North)
+<br>
+<h4>Provinces (10)</h4>
+<strong><p1>St. John's, Newfoundland<p1></strong><br>
+<strong><p1>Halifax, Nova Scotia</p1></strong><br>
+<p1><strong>Charlottetown, Prince Edward Island</strong></p1><br>
+Fredericton, New Brunswick<br>
+Quebec City, Quebec<br>
+<p1><strong>Toronto, Ontario</strong></p1><br>
+<p1><strong>Winnipeg, Manitoba</strong></p1><br>
+Regina, Saskatchewan<br>
+Edmonton, Alberta<br>
+Victoria, British Columbia<br>
+<h4>Territories (3)</h4>
+<p1><strong>Iqaluit, Nunavut</strong><br></p1>
+<p1><strong>Yellowknife, Northwest Territories</strong><br></p1>
+<p1><strong>Whitehorse, Yukon</strong><br></p1>
+<br>
+Highlighted in <strong><p1>bold and white</p1></strong> are the cities that have the largest population in their respective provinces/territories.
